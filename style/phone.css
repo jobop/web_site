@@ -1,0 +1,151 @@
+@media screen and ( max-width:800px ){/*手机--横屏(主要是重写一下wal的宽度)*/
+.section{min-height:300px;}
+#menu{display:none;}
+.section .num{display:none;}
+.sectionLayer{position:relative; top:0px; margin-top:0px; padding:45px 15px;}
+
+.bgCanvas #particles-js{opacity:1; visibility:visible;}
+
+.headDiv{height:50px;}
+.headDiv .logo{left:15px; top:15px; width:134px; height:19px;}
+.navA{background-size:25px; width:50px; height:50px; top:0px; right:0px;}
+
+.nav{top:50px; right:0px; margin-right:0px; width:180px; padding:15px 15px 15px 20px; background:#333;}
+.nav li{float:none; line-height:40px; padding-left:0px;}
+.nav a{display:block; color:#FFF; height:40px; line-height:40px; font-size:14px;}
+.nav .li_01 span{float:left;}
+.nav .li_01 a{float:left; padding-left:6px; position:relative; top:-1px;}
+
+.indexPart1{background:#000; z-index:5;}
+.indexPart1 .layer{margin-top:-120px; font-size:12px; padding:0 15px;}
+.indexPart1 h2{font-size:28px;}
+.indexPart1 h2 div{font-size:35px;}
+.indexPart1 h2 span{color:#0056a9;}
+.indexPart1 h2 em{padding:0 8px; margin:0 8px;}
+.indexPart1 h2.h2{padding-top:28px;}
+.indexPart1 .btn{height:130px; padding-top:30px;}
+
+
+.indexTitle{position:relative; top:0px; width:100%; text-align:center;}
+.indexTitle h2{font-size:26px;}
+.indexTitle h5{background-position:center bottom; font-weight:400;}
+.indexTitle p{line-height:13px; background-position:center bottom;}
+/**/
+.indexTitle-2{color:#0056a9;}
+.indexTitle-2 h5, .indexTitle-2 p{background-image:url(../image/line1.png);}
+
+.indexTitle2{padding-bottom:25px; background:none;}
+.indexTitle2 h2{font-size:26px;}
+
+.pageWal{min-height:500px; position:relative;}
+.pageWal .indexTitle{width:150px; min-width:150px;}
+
+.indexPart2 .list{padding:45px 0 20px 0;}
+.indexPart2 .list li{padding-bottom:25px;}
+.indexPart2 .list .name{padding-top:10px;}
+.indexPart2 .content{font-size:12px;}
+.indexPart2 .content h2{font-size:16px; padding:10px 0;}
+
+
+.indexPart3{width:100%; overflow:hidden;}
+.indexPart3 .wal{padding:0px;}
+.indexPart3 li{width:100%; padding:0 0 25px 0;}
+.indexPart3 .title{max-width:240px; margin:0 auto;}
+.indexPart3 .name{font-size:16px;}
+.indexPart3 .content{font-size:13px;}
+
+.indexPart3{width:100%; overflow:hidden;}
+.indexPart4 .sectionLayer{margin-top:0px;}
+.indexPart4 .wal{padding:0px;}
+.indexPart4 ul{margin-left:-5px; margin-right:-5px;}
+.indexPart4 li{width:50%; padding:0 5px 15px 5px;}
+.indexPart4 li .img{top:20px;}
+.indexPart4 li h2{height:130px; padding-top:90px; font-size:15px;}
+.indexPart4 li p{height:190px; padding:10px;}
+.indexPart4 .msg{font-size:12px; margin-left:0px; margin-right:0px;}
+
+
+.indexPart5 .indexTitle{padding-bottom:25px;}
+.indexPart5 .ico{right:10px; top:15px; background-size:80px; width:80px; height:80px;}
+.indexPart5 .list{width:280px; height:280px; margin:0 auto; top:0px; left:0px;}
+
+.indexPart6 .ico{background-size:cover; width:100px; height:100px; left:10px; bottom:20px;}
+.indexPart6 .sectionLayer{margin-top:0px; padding:45px 15px;}
+.indexPart6 .num{color:#0368c8;}
+.indexPart6 .msg{height:auto; padding:15px 0;}
+/**/
+.indexPart6 .list{width:100%; overflow:hidden;}
+.indexPart6 .slick-arrow{opacity:0; filter:alpha(opacity=0); visibility:hidden;}
+/**/
+.indexPart6 .box{height:200px;}
+.indexPart6 .imgDiv{width:160px; margin-left:-80px;}
+.indexPart6 .layer{padding:15px;}
+.indexPart6 .layer h2{font-size:18px; padding:70px 0 10px 0; text-align:center;}
+.indexPart6 .layer p{display:none;}
+.indexPart6 .slick-center .box{width:160px; margin-left:-80px;}
+
+.indexPart7 .sectionLayer{margin-top:0px;}
+.indexPart7 ul{margin-left:-5px; margin-right:-5px;}
+.indexPart7 li{width:50%; padding:0 5px;}
+.indexPart7 .name{text-align:center;}
+.indexPart7 .name span{display:none;}
+.indexPart7 .ico2{right:0px;}
+
+
+.indexPart8 .sectionLayer{margin-top:0px; padding-bottom:0px;}
+.indexPart8 .ico{position:absolute; top:165px; right:8%; background:url(../image/img230.png) center no-repeat; width:230px; height:191px;}
+.indexPart8 .list{background:none; height:auto; padding:25px 0;}
+.indexPart8 .list li{min-height:60px;}
+.indexPart8 .list h2{font-size:18px; padding-bottom:8px;}
+.indexPart8 .list p{line-height:18px;}
+.indexPart8 .layer{position:relative; right:0px; margin-right:0px; width:100%;}
+.indexPart8.active .layer{margin-right:0px; right:0px;}
+
+
+.indexPart9 .sectionLayer{margin-top:0px;}
+.indexPart9 .ico{display:none;}
+.indexPart9 .msg{height:auto; padding:25px 0;}
+
+
+.indexPart10 .sectionLayer{margin-top:0px;}
+.indexPart10 .fl, .indexPart10 .fr{width:100%;}
+.indexPart10 .table .fl{padding-right:0px; padding-bottom:25px;}
+.indexPart10 .table .fr{padding-left:0px;}
+.indexPart10 .table h2{font-size:16px;}
+/**/
+.indexPart10 .list h2{font-size:16px; padding:25px 0 15px 0;}
+.indexPart10 .list .fl{width:100%;}
+.indexPart10 .list .fr{padding-left:0px; width:100%;}
+.indexPart10 .list .fr li{padding-left:0px;}
+.indexPart10 li{padding-bottom:15px;}
+.indexPart10 li.li_01{padding-right:0px; min-height:100px;}
+.indexPart10 .img-1{position:relative; top:0px; margin:0 auto;}
+
+
+.indexFoot .foot{position:relative; height:350px; padding:0 15px;}
+.indexFoot .wal{height:350px; position:relative; z-index:5;}
+.indexFoot .title{padding:45px 0 20px 0;}
+.indexFoot .title h2{font-size:16px;}
+.indexFoot .title p{font-size:12px; padding:10px 0; background-size:auto 2px;}
+.indexFoot .share{background-size:100%; width:100%; height:150px; position:relative; top:0px; padding-top:25px;}
+.indexFoot .share ul{margin-left:-10px; margin-right:-10px;}
+
+
+.pageWal{padding:0 15px;}
+.pageWal .indexTitle{margin:0 auto;}
+
+.news li{padding:0 0 20px 70px;}
+.news .time{width:60px; height:60px; font-size:12px; padding-top:7px; border-width:2px; top:5px;}
+.news .time b{font-size:28px;}
+.news .name{font-size:14px; line-height:1.5em;}
+.news dd{min-height:1.5em; line-height:1.5em; font-size:12px; padding-bottom:10px;}
+.news dd span{margin-left:-4em;}
+
+.pageNum{padding-top:15px; height:100px;}
+.pageNum a{padding:0 6px; font-size:12px;}
+
+}
+@media screen and ( max-width:550px ){/*手机--竖屏*/
+/*.wal{margin:0 15px;}*/	
+
+}

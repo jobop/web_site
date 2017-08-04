@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+html{font-size:10px; /*font-size:62.5%;*/}
+body{margin:0px; padding:0px; font-size:1.2rem; font-family:Arial, "微软雅黑"; color:#333; background:url(../image/bg1.jpg);}
+a{color:#333; text-decoration:none; outline:none;}
+a:active{star:expression(this.onFocus=this.blur());} 
+img{border:0px;}
+a:link {text-decoration: none; outline:none;}
+a:visited{text-decoration: none; outline:none;}
+a:hover{text-decoration:none; color:#88c22f; outline:none;}
+ul, p, dl, dt, dd{padding:0px; margin:0px;}
+li{list-style-position:outside; list-style-type:none;}
+h1, h2, h3, h4, h5{font-size:14px; padding:0px; margin:0px;}
+h1{font-size:1.6rem;}
+h5{font-size:1.2rem;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both; height:0px; padding:0px; margin:0px; display:block; _display:inherit;}
+.h10{height:1rem; overflow:hidden; clear:both;}
+.h50{height:5rem; overflow:hidden; clear:both;}
+input{background:transparent; padding:0px; font-size:1.2rem; font-family:Arial, "微软雅黑"; color:#888; outline:none; border:0px;}
+em{font-style:normal;}
+.btn1{cursor:pointer;}
+img{vertical-align:middle; max-width:100%;}
+.red, a.red{color:#ff0037;}
+.green{color:#88c22f;}
+/*opacity:1; filter:alpha(opacity=1);*/
+
+.wal{max-width:1400px; margin:0px auto;}
+.align{
+justify-content:left;
+align-items:center;
+display:-webkit-flex;	
+}
+
+a, .transition,
+.indexPart1 h2, .indexPart1 .btn, .indexPart1 .list,
+.indexPart4 .img, .indexPart4 .box, .indexPart4 h2, .indexPart4 p,
+.indexPart6 .slick-center .layer, .indexPart6 .imgDiv,
+.indexPart7 li img, .indexPart7 li .name, .indexPart7 .ico, .indexPart7 .ico1, .indexPart7 .ico2,
+.indexFoot .share .layer
+{
+transition:All 0.5s ease;
+-webkit-transition:All 0.5s ease;
+-moz-transition:All 0.5s ease;
+-o-transition:All 0.5s ease;	
+}
+.indexPart1 .layer, .indexPart1 h2,
+.indexPart2 .list li, .indexPart2 .content,
+.indexPart3 li,
+.indexPart4 li,
+.indexPart6 .list,
+.indexPart7 li, .indexPart7.active .ico, .indexPart7.active .ico1, .indexPart7.active .ico2,
+.indexPart8 .list, .indexPart8 .layer,
+.indexPart9 .imgDiv, .indexPart9 .ico
+{
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;	
+}
+.radius3{
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;	
+}
+.indexPart1 .btn a{
+-moz-border-radius:50px;
+-webkit-border-radius:50px;
+border-radius:50px;	
+}
+input, li, a, span, i, em, b, div, img, textarea, p, dl, dt, dd, h1, h2{
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;	
+}
+.aaaa
+{overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+
+.headDiv{position:absolute; z-index:50; left:0px; top:0px; width:100%; height:80px;}
+.headDiv .logo{position:absolute; left:3.3%; top:25px; display:block; width:268px; height:37px; background:url(../image/logo.png) center no-repeat; background-size:cover;}
+.nav{position:absolute; top:25px; right:50%; margin-right:-700px;}
+.nav li{float:left; color:#dce3eb; line-height:40px; padding-left:50px;}
+.nav a{display:block; color:#FFF; height:40px; line-height:40px; font-size:14px;}
+.nav a:hover, .nav a.on{color:#FC0;}
+.nav .li_01 span{float:left;}
+.nav .li_01 a{float:left; padding-left:6px; position:relative; top:-1px;}
+.headDiv.onon .logo{background-image:url(../image/logo2.png);}
+.headDiv.onon .nav li, .headDiv.onon .nav a{color:#000;}
+.headDiv.onon .nav a:hover, .headDiv.onon .nav a.on{color:#F60;}
+
+.pageLoad{position:fixed; z-index:100; left:0px; top:0px; width:100%; height:100%; background:#000;}
+
+
+.indexPart3 .ico1, .indexPart3 .ico2, .indexPart5 .ico, .indexPart6 .ico{
+-webkit-animation: guangAnimation 15s infinite linear;
+-moz-animation: guangAnimation 15s infinite linear;
+-o-animation: guangAnimation 15s infinite linear;
+}
+@-webkit-keyframes guangAnimation {
+from { -webkit-transform:rotate(0deg);}
+to { -webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes guangAnimation {
+from { -moz-transform:rotate(0deg);}
+to { -moz-transform:rotate(360deg);}
+}
+@-o-keyframes guangAnimation {
+from { -o-transform:rotate(0deg);}
+to { -o-transform:rotate(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

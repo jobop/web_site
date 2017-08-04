@@ -1,0 +1,97 @@
+@media screen and ( max-width:1450px ){
+.wal{max-width:1200px;}
+.nav{margin-right:-600px;}
+.nav li{padding-left:25px;}
+
+.indexPart8 .layer{margin-right:-380px;}
+.indexPart8.active .layer{margin-right:-480px;}
+
+.indexPart3 .wal{padding:0 50px;}
+.indexPart3 li{padding:0 30px;}
+
+.indexPart4 .wal{padding:0 50px;}
+.indexPart4 .msg{font-size:12px;}
+
+.indexPart8 .list{height:500px;}
+.indexPart8 .list li{min-height:80px; max-width:625px;}
+
+
+}
+
+@media screen and ( max-height:800px ){
+.headDiv.on .nav{opacity:0; filter:alpha(opacity=0);}
+.headDiv.on:hover .nav{opacity:1; filter:alpha(opacity=1);}
+}
+
+@media screen and ( max-height:710px ){
+.headDiv.on{display:none;}
+	
+.indexPart4 li{padding:25px 5px;}
+.indexPart4 .msg{margin-left:-45px; margin-right:-45px;}
+
+.indexPart5 .list{width:580px; height:580px; top:-60px;}
+
+.indexPart6 .msg{height:150px; padding:25px 0 0 0;}
+
+.indexPart7 .sectionLayer{margin-top:-250px;}
+.indexPart7 .msg{height:150px; padding:70px 0 0 0; background-position:left 45px;}
+
+.indexPart8 .sectionLayer{margin-top:-250px;}
+
+.indexPart9 .sectionLayer{margin-top:-250px;}
+
+.indexPart10 .sectionLayer{margin-top:-300px;}
+.indexPart10 .indexTitle2{padding-bottom:20px;}
+.indexPart10 .list h2{padding:25px 0 15px 0;}
+.indexPart10 li{padding-bottom:15px;}
+.indexPart10 .table td{padding:5px;}
+
+}
+
+@media screen and ( max-width:1024px ){
+.navA{display:block; background:url(../image/navA.png) center no-repeat; background-size:35px; width:45px; height:45px; position:absolute; top:15px; right:20px;}
+.nav{display:none;}
+
+.sectionLayer{padding:0 50px;}
+
+.section .num{font-size:12px; width:80px;}
+
+.indexPart4 li{padding:25px 5px;}
+.indexPart4 li .img img{width:60px;}
+.indexPart4 li h2{height:150px; padding-top:100px; font-size:18px;}
+.indexPart4 li p{height:170px; padding:15px;}
+
+.indexPart5 .list{width:580px; height:580px; top:-60px; left:5%;}
+
+.indexPart6 .sectionLayer{padding:0 100px; margin-top:-250px;}
+.indexPart6 .slick-prev{left:-55px;}
+.indexPart6 .slick-next{right:-55px;}
+.indexPart6 .box{height:350px;}
+.indexPart6 .layer h2{padding-top:35px;}
+
+.indexPart7 .sectionLayer{margin-top:-250px;}
+.indexPart7 .ico{display:none;}
+
+.indexPart8 .sectionLayer{margin-top:-250px;}
+.indexPart8 .ico{display:none;}
+.indexPart8 .layer{right:0px; margin-right:0px;}
+.indexPart8.active .layer{right:90px; margin-right:0px;}
+
+.indexPart9 .sectionLayer{margin-top:-250px;}
+
+.indexPart10 .sectionLayer{margin-top:-300px;}
+.indexPart10 .table .fl{padding-right:10px;}
+.indexPart10 .table .fr{padding-left:10px;}
+.indexPart10 .table td{font-size:12px; padding:5px;}
+/**/
+.indexPart10 .list h2{font-size:20px; padding:25px 0 15px 0;}
+.indexPart10 .list .fl{width:60%;}
+.indexPart10 .list .fr{padding-left:20px; width:40%;}
+.indexPart10 .list .fr li{padding-left:85px;}
+.indexPart10 li .content img{left:-85px;}
+.indexPart10 li{padding-bottom:15px;}
+
+.indexFoot .foot{padding:0 50px;}
+
+
+}
